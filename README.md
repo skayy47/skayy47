@@ -11,7 +11,13 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/ai-lab.gif" width="800" alt="The AI Engineer — pixel art"/>
+
+<br/>
+
+![gifgithub](https://github.com/user-attachments/assets/54dc1f7a-f327-43ab-ae9c-58c7421eee39)
+
+<br/>
+
 </div>
 
 <br/>
