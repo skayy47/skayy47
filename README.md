@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1A1A2E%2C5B7B9E%2CE0E0F0&height=220&section=header&text=SKAY&fontSize=96&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Data%20Scientist%20%7C%20Builder&descAlignY=60&descSize=18&descColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5B7B9E%2C1A1A2E%2C5B7B9E&height=220&section=header&text=SKAY&fontSize=96&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Data%20Scientist%20%7C%20Builder&descAlignY=60&descSize=18&descColor=ffffff" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=4000&pause=3000&color=1A1A2E&center=true&vCenter=true&width=700&lines=Silence+is+my+workflow.+Systems+are+my+voice." alt="Tagline"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=4000&pause=3000&color=E0E0F0&center=true&vCenter=true&width=700&lines=Silence+is+my+workflow.+Systems+are+my+voice." alt="Tagline"/>
 
 </div>
 
@@ -162,5 +162,5 @@ INFJ. Thinks in systems. Builds in Python. Obsessed with the gap between raw dat
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1A1A2E%2C5B7B9E%2CE0E0F0&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5B7B9E%2C1A1A2E%2C5B7B9E&height=120&section=footer" width="100%"/>
 </div>
