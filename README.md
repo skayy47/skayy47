@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5B7B9E%2C1A1A2E%2C5B7B9E&height=220&section=header&text=SKAY&fontSize=96&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Data%20Scientist%20%7C%20Builder&descAlignY=60&descSize=18&descColor=ffffff" width="100%"/>
-
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=1A1A2E%2C5B7B9E%2CE0E0F0%2C5B7B9E%2C1A1A2E&height=240&section=header&text=SKAY&fontSize=110&fontColor=E0E0F0&animation=twinkling&fontAlignY=40&desc=AI%20Engineer%20%E2%9C%A6%20Data%20Scientist%20%E2%9C%A6%20Builder&descAlignY=65&descSize=16&descColor=ffffff" width="100%"/>
 <br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=4000&pause=3000&color=E0E0F0&center=true&vCenter=true&width=700&lines=Silence+is+my+workflow.+Systems+are+my+voice." alt="Tagline"/>
