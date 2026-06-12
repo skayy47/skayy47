@@ -58,7 +58,8 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 |:--------|:-----------|:------|:------:|
 | [🎼 **MAESTRO**](https://github.com/skayy47/maestro) | Multi-agent AI command center. LLM orchestrator plans a DAG of specialist agents (Research · Data · Automation), runs them as a live SSE pipeline, and returns verifiable artifacts: sourced market briefs, real CSV stats, importable n8n JSON | `Next.js 14` `TypeScript` `Groq` `Tavily` `Framer Motion` `Vitest` | ✅ [**Live**](https://maestro-lac-theta.vercel.app) |
 | [🧠 **nexus**](https://github.com/skayy47/nexus) | Institutional memory RAG engine. Contradiction detection, hybrid BM25+pgvector retrieval, confidence scoring, epistemic transparency, SSE streaming | `FastAPI` `Next.js 14` `LangChain` `pgvector` `Groq` `Supabase` `Docker` | ✅ [**Live**](https://nexussss-two.vercel.app) |
-| [🔬 **AURA**](https://github.com/skayy47/AURA) | Universal AI data engine. Ingest, clean, explore, and chat with any data format: tabular, PDF, audio, video, multilingual OCR, using Claude and GPT-4o | `Python` `Streamlit` `Claude` `GPT-4o` `Whisper` `OpenCV` `Tesseract` | ✅ `V2 Shipped` |
+| [🔬 **AURA**](https://github.com/skayy47/AURA) | Full-stack data intelligence platform. Ingest any file, 8-step cleaning pipeline, Plotly explorer, streaming multi-provider AI chat (Groq / OpenAI / Claude), branded PDF report via Playwright + Jinja2. Bilingual EN/AR RTL. | `FastAPI` `Next.js 14` `Pandas` `Groq` `Playwright` `Stripe` | ✅ `V5 Shipped` |
+| **🔭 VERIS** | Production deep research agent — structured research plans, multi-source retrieval, verified citations, exportable reports. | `Python` `FastAPI` `Claude` `Tavily` | 🔨 `In Build` |
 
 </div>
 
@@ -143,6 +144,23 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 ![HF Spaces](https://img.shields.io/badge/HF%20Spaces-E0E0F0?style=for-the-badge&logo=huggingface&logoColor=1A1A2E)
 ![Git](https://img.shields.io/badge/Git-1A1A2E?style=for-the-badge&logo=git&logoColor=5B7B9E)
 ![Vitest](https://img.shields.io/badge/Vitest-5B7B9E?style=for-the-badge&logo=vitest&logoColor=white)
+
+</div>
+
+<br/>
+
+---
+
+## `> gh stats`
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=skayy47&show_icons=true&hide_border=true&bg_color=0D1117&icon_color=5B7B9E&title_color=E0E0F0&text_color=8B9DB4&count_private=true&rank_icon=github" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skayy47&layout=compact&hide_border=true&bg_color=0D1117&title_color=E0E0F0&text_color=8B9DB4&langs_count=6" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=skayy47&hide_border=true&background=0D1117&stroke=5B7B9E&ring=5B7B9E&fire=E0E0F0&currStreakNum=E0E0F0&sideNums=8B9DB4&currStreakLabel=5B7B9E&sideLabels=8B9DB4&dates=8B9DB4" />
 
 </div>
 
