@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3500&pause=2800&color=E0E0F0&center=true&vCenter=true&width=750&lines=I+build+systems+that+survive+production.;Multi-agent+AI+%E2%80%94+real+orchestration%2C+not+prompt+chains.;RAG+engines+with+memory%2C+confidence%2C+and+honesty.;Casablanca%2C+Morocco+%E2%86%92+the+world." alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3500&pause=2800&color=E0E0F0&center=true&vCenter=true&width=750&lines=I+build+systems+that+survive+production.;Multi-agent+AI+%E2%80%94+real+orchestration%2C+not+prompt+chains.;RAG+engines+with+memory%2C+grounding%2C+and+honesty.;Casablanca%2C+Morocco+%E2%86%92+the+world." alt="Typing SVG"/>
 
 </div>
 
@@ -41,7 +41,7 @@ I do not build demos. I build systems that **survive production** — multi-agen
 Three pillars I build toward:
 
 - **Multi-agent AI** — real LLM planners, typed output contracts, grounded tools, live SSE streaming
-- **Memory and retrieval** — hybrid BM25 + vector search, contradiction detection, confidence scoring
+- **Memory and retrieval** — hybrid BM25 + vector search, contradiction detection, answer grounding
 - **Data intelligence** — from raw ingestion (tabular, PDF, audio, video, OCR) to decision-ready insight
 
 INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelligence.
@@ -57,8 +57,8 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 | Project | What it is | Stack | Status |
 |:--------|:-----------|:------|:------:|
 | [🎼 **MAESTRO**](https://github.com/skayy47/maestro) | Multi-agent AI command center. LLM orchestrator plans a DAG of specialist agents (Research · Data · Automation), runs them as a live SSE pipeline, and returns verifiable artifacts: sourced market briefs, real CSV stats, importable n8n JSON | `Next.js 14` `TypeScript` `Groq` `Tavily` `Framer Motion` `Vitest` | ✅ [**Live**](https://maestro-lac-theta.vercel.app) |
-| [🧠 **nexus**](https://github.com/skayy47/nexus) | Institutional memory RAG engine. Contradiction detection, hybrid BM25+pgvector retrieval, confidence scoring, epistemic transparency, SSE streaming | `FastAPI` `Next.js 14` `LangChain` `pgvector` `Groq` `Supabase` `Docker` | ✅ [**Live**](https://nexussss-two.vercel.app) |
-| [🔬 **AURA**](https://github.com/skayy47/AURA) | Full-stack data intelligence platform. Ingest any file, 8-step cleaning pipeline, Plotly explorer, streaming multi-provider AI chat (Groq / OpenAI / Claude), branded PDF report via Playwright + Jinja2. Bilingual EN/AR RTL. | `FastAPI` `Next.js 14` `Pandas` `Groq` `Playwright` `Stripe` | ✅ `V5 Shipped` |
+| [🧠 **nexus**](https://github.com/skayy47/nexus) | Institutional memory RAG engine. Contradiction detection, hybrid BM25+pgvector retrieval, **answer grounding** (claim-level source verification), epistemic transparency, SSE streaming. Bilingual EN/FR. | `FastAPI` `Next.js 14` `LangChain` `pgvector` `Groq` `Supabase` `Docker` | ✅ [**Live**](https://nexussss-two.vercel.app) |
+| [🔬 **AURA**](https://github.com/skayy47/AURA) | Full-stack data intelligence platform. Ingest any file, 8-step cleaning pipeline, Plotly explorer, streaming multi-provider AI chat (Groq / OpenAI / Claude), branded PDF report via Playwright + Jinja2. **Bilingual EN/FR** with a premium language toggle. | `FastAPI` `Next.js 14` `Pandas` `Groq` `Playwright` `Stripe` | ✅ `V5 Shipped` |
 | **🔭 VERIS** | Production deep research agent — structured research plans, multi-source retrieval, verified citations, exportable reports. | `Python` `FastAPI` `Claude` `Tavily` | 🔨 `In Build` |
 
 </div>
@@ -151,16 +151,40 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 
 ---
 
-## `> gh stats`
+## `> impact`
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=skayy47&show_icons=true&hide_border=true&bg_color=0D1117&icon_color=5B7B9E&title_color=E0E0F0&text_color=8B9DB4&count_private=true&rank_icon=github" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skayy47&layout=compact&hide_border=true&bg_color=0D1117&title_color=E0E0F0&text_color=8B9DB4&langs_count=6" />
+### Three production AI systems — live, tested, documented.
+
+</div>
+
+<div align="center">
+
+|  | System | Signature engineering | Proof |
+|:--:|:--|:--|:--|
+| 🎼 | **[MAESTRO](https://github.com/skayy47/maestro)** | LLM-planned multi-agent DAG · live SSE pipeline · deterministic n8n compiler | `48/48 tests` · [**Live ↗**](https://maestro-lac-theta.vercel.app) |
+| 🧠 | **[nexus](https://github.com/skayy47/nexus)** | Hybrid BM25 + pgvector RAG · contradiction radar · **answer grounding** | `RAGAS-evaluated` · [**Live ↗**](https://nexussss-two.vercel.app) |
+| 🔬 | **[AURA](https://github.com/skayy47/AURA)** | Any-file ingest → streaming AI chat → branded PDF · multi-provider · **bilingual EN/FR** | `CI-gated` · [**Code ↗**](https://github.com/skayy47/AURA) |
+
+</div>
+
+<div align="center">
+
+![Production Systems](https://img.shields.io/badge/Production_Systems-3_live-5B7B9E?style=for-the-badge)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent-orchestration-1A1A2E?style=for-the-badge)
+![Grounded RAG](https://img.shields.io/badge/RAG-grounded_%2B_hybrid-5B7B9E?style=for-the-badge)
+![Bilingual](https://img.shields.io/badge/Bilingual-EN_%7C_FR-1A1A2E?style=for-the-badge)
+![Free tier](https://img.shields.io/badge/Runs_on-free_tier-5B7B9E?style=for-the-badge)
+
+<br/>
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=skayy47&bg_color=0D1117&color=E0E0F0&line=5B7B9E&point=E0E0F0&area=true&area_color=1A1A2E&hide_border=true&custom_title=Build%20Activity" width="100%"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=skayy47&hide_border=true&background=0D1117&stroke=5B7B9E&ring=5B7B9E&fire=E0E0F0&currStreakNum=E0E0F0&sideNums=8B9DB4&currStreakLabel=5B7B9E&sideLabels=8B9DB4&dates=8B9DB4" />
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skayy47&layout=compact&hide_border=true&bg_color=0D1117&title_color=E0E0F0&text_color=8B9DB4&langs_count=6" />
 
 </div>
 
