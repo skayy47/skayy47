@@ -58,8 +58,8 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 |:--------|:-----------|:------|:------:|
 | [🎼 **MAESTRO**](https://github.com/skayy47/maestro) | Multi-agent AI command center. LLM orchestrator plans a DAG of specialist agents (Research · Data · Automation), runs them as a live SSE pipeline, and returns verifiable artifacts: sourced market briefs, real CSV stats, importable n8n JSON | `Next.js 14` `TypeScript` `Groq` `Tavily` `Framer Motion` `Vitest` | ✅ [**Live**](https://maestro-lac-theta.vercel.app) |
 | [🧠 **nexus**](https://github.com/skayy47/nexus) | Institutional memory RAG engine. Contradiction detection, hybrid BM25+pgvector retrieval, **answer grounding** (claim-level source verification), epistemic transparency, SSE streaming. Bilingual EN/FR. | `FastAPI` `Next.js 14` `LangChain` `pgvector` `Groq` `Supabase` `Docker` | ✅ [**Live**](https://nexussss-two.vercel.app) |
-| [🔬 **AURA**](https://github.com/skayy47/AURA) | Full-stack data intelligence platform. Ingest any file, 8-step cleaning pipeline, Plotly explorer, streaming multi-provider AI chat (Groq / OpenAI / Claude), branded PDF report via Playwright + Jinja2. **Bilingual EN/FR** with a premium language toggle. | `FastAPI` `Next.js 14` `Pandas` `Groq` `Playwright` `Stripe` | ✅ `V5 Shipped` |
-| **🔭 VERIS** | Production deep research agent — structured research plans, multi-source retrieval, verified citations, exportable reports. | `Python` `FastAPI` `Claude` `Tavily` | 🔨 `In Build` |
+| [🔬 **AURA**](https://github.com/skayy47/AURA) | Full-stack data intelligence platform. Ingest any file, 8-step cleaning pipeline, Plotly explorer, streaming AI chat (Gemini Flash 2.0 primary · Groq fallback), branded PDF report via Playwright. **Bilingual EN/FR** with full i18n parity. | `FastAPI` `Next.js 14` `Pandas` `Gemini` `Groq` `Playwright` | ✅ [**Live**](https://aura-skayy47s-projects.vercel.app) |
+| [📊 **Credit Risk**](https://github.com/skayy47/credit-risk-prediction) | ML credit scoring pipeline on Home Credit dataset (307K rows). Champion LightGBM (AUC 0.7594 from 0.628 baseline). SHAP TreeExplainer, business risk simulator with threshold sweep, 5-tab Streamlit dashboard. | `Python` `LightGBM` `SHAP` `Scikit-learn` `Streamlit` `Plotly` | ✅ [**GitHub**](https://github.com/skayy47/credit-risk-prediction) |
 
 </div>
 
@@ -103,8 +103,10 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 ![Pandas](https://img.shields.io/badge/Pandas-1A1A2E?style=for-the-badge&logo=pandas&logoColor=5B7B9E)
 ![NumPy](https://img.shields.io/badge/NumPy-5B7B9E?style=for-the-badge&logo=numpy&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-E0E0F0?style=for-the-badge&logo=xgboost&logoColor=1A1A2E)
-![Plotly](https://img.shields.io/badge/Plotly-1A1A2E?style=for-the-badge&logo=plotly&logoColor=5B7B9E)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-5B7B9E?style=for-the-badge&logo=tensorflow&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-1A1A2E?style=for-the-badge&logo=python&logoColor=5B7B9E)
+![SHAP](https://img.shields.io/badge/SHAP-5B7B9E?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-E0E0F0?style=for-the-badge&logo=plotly&logoColor=1A1A2E)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-1A1A2E?style=for-the-badge&logo=tensorflow&logoColor=5B7B9E)
 
 ### ⬡ Vision · Audio · Document AI
 
@@ -165,7 +167,7 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 |:--:|:--|:--|:--|
 | 🎼 | **[MAESTRO](https://github.com/skayy47/maestro)** | LLM-planned multi-agent DAG · live SSE pipeline · deterministic n8n compiler | `48/48 tests` · [**Live ↗**](https://maestro-lac-theta.vercel.app) |
 | 🧠 | **[nexus](https://github.com/skayy47/nexus)** | Hybrid BM25 + pgvector RAG · contradiction radar · **answer grounding** | `RAGAS-evaluated` · [**Live ↗**](https://nexussss-two.vercel.app) |
-| 🔬 | **[AURA](https://github.com/skayy47/AURA)** | Any-file ingest → streaming AI chat → branded PDF · multi-provider · **bilingual EN/FR** | `CI-gated` · [**Code ↗**](https://github.com/skayy47/AURA) |
+| 🔬 | **[AURA](https://github.com/skayy47/AURA)** | Any-file ingest → streaming AI chat → branded PDF · multi-provider · **bilingual EN/FR** | `Deployed` · [**Live ↗**](https://aura-skayy47s-projects.vercel.app) |
 
 </div>
 
@@ -202,7 +204,7 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 
 | 🎼 MAESTRO | 🧠 nexus | 🔬 AURA |
 |:---:|:---:|:---:|
-| [**Live Demo**](https://maestro-lac-theta.vercel.app) | [**Live Demo**](https://nexussss-two.vercel.app) | [**GitHub**](https://github.com/skayy47/AURA) |
+| [**Live Demo**](https://maestro-lac-theta.vercel.app) | [**Live Demo**](https://nexussss-two.vercel.app) | [**Live Demo**](https://aura-skayy47s-projects.vercel.app) |
 | Multi-agent AI | RAG + Memory | Universal Data AI |
 
 <br/>
