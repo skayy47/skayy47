@@ -1,10 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=1A1A2E%2C5B7B9E%2CE0E0F0%2C5B7B9E%2C1A1A2E&height=240&section=header&text=SKAY&fontSize=110&fontColor=E0E0F0&animation=twinkling&fontAlignY=40&desc=AI%20Engineer%20%E2%9C%A6%20Data%20Scientist%20%E2%9C%A6%20Builder&descAlignY=65&descSize=16&descColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=1A1A2E%2C5B7B9E%2CE0E0F0%2C5B7B9E%2C1A1A2E&height=240&section=header&text=SKAY&fontSize=110&fontColor=E0E0F0&animation=twinkling&fontAlignY=40&desc=AI%20Engineer%20%E2%9C%A6%20Data%20Scientist%20%E2%9C%A6%20Builder%20of%20Production%20AI&descAlignY=65&descSize=16&descColor=ffffff" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3500&pause=2800&color=E0E0F0&center=true&vCenter=true&width=750&lines=I+build+systems+that+survive+production.;Multi-agent+AI+%E2%80%94+real+orchestration%2C+not+prompt+chains.;RAG+engines+with+memory%2C+grounding%2C+and+honesty.;Casablanca%2C+Morocco+%E2%86%92+the+world." alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3600&pause=2800&color=E0E0F0&center=true&vCenter=true&width=760&lines=Models+hallucinate.+Systems+shouldn%27t.;I+build+production+AI+that+survives+real+workloads.;Multi-agent+orchestration+%C2%B7+grounded+RAG+%C2%B7+data+engines.;Casablanca%2C+Morocco+%E2%86%92+globally+employed." alt="Typing SVG"/>
+
+<br/>
+<br/>
+
+[![Open to work](https://img.shields.io/badge/Open_to-AI_Engineer_%2F_PFE-5B7B9E?style=for-the-badge&labelColor=1A1A2E)](mailto:oussamaiskia@gmail.com)
+[![Location](https://img.shields.io/badge/Based_in-France_%2B_EU_relocation-1A1A2E?style=for-the-badge&labelColor=1A1A2E)](https://skay-portfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-skay--portfolio.vercel.app-E0E0F0?style=for-the-badge&labelColor=1A1A2E&logo=vercel&logoColor=E0E0F0)](https://skay-portfolio.vercel.app)
 
 </div>
 
@@ -36,7 +43,9 @@
 
 I am **Oussama** (SKAY) — AI Engineer and Data Scientist from Casablanca.
 
-I do not build demos. I build systems that **survive production** — multi-agent orchestration pipelines, RAG engines with epistemic awareness, full-stack AI products that ship, scale, and stay shipped.
+> **Models hallucinate. Systems shouldn't.**
+
+I do not build demos. I build systems that **survive production** — multi-agent orchestration pipelines, RAG engines with epistemic awareness, full-stack AI products that ship, scale, and stay shipped. The model is the easy part; I build the retrieval, pipelines, and fallbacks that hold up when real input gets messy.
 
 Three pillars I build toward:
 
@@ -50,22 +59,45 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 
 ---
 
-## `> ls ./portfolio`
+## `> ls ./systems`
 
 <div align="center">
 
-| Project | What it is | Stack | Status |
+### Three full-stack production AI systems — live, tested, documented.
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| Project | What it is | Stack | Proof |
 |:--------|:-----------|:------|:------:|
-| [🎼 **MAESTRO**](https://github.com/skayy47/maestro) | Multi-agent AI command center. LLM orchestrator plans a DAG of specialist agents (Research · Data · Automation), runs them as a live SSE pipeline, and returns verifiable artifacts: sourced market briefs, real CSV stats, importable n8n JSON | `Next.js 14` `TypeScript` `Groq` `Tavily` `Framer Motion` `Vitest` | ✅ [**Live**](https://maestro-lac-theta.vercel.app) |
-| [🧠 **nexus**](https://github.com/skayy47/nexus) | Institutional memory RAG engine. Contradiction detection, hybrid BM25+pgvector retrieval, **answer grounding** (claim-level source verification), epistemic transparency, SSE streaming. Bilingual EN/FR. | `FastAPI` `Next.js 14` `LangChain` `pgvector` `Groq` `Supabase` `Docker` | ✅ [**Live**](https://nexussss-two.vercel.app) |
-| [🔬 **AURA**](https://github.com/skayy47/AURA) | Full-stack data intelligence platform. Ingest any file, 8-step cleaning pipeline, Plotly explorer, streaming AI chat (Gemini Flash 2.0 primary · Groq fallback), branded PDF report via Playwright. **Bilingual EN/FR** with full i18n parity. | `FastAPI` `Next.js 14` `Pandas` `Gemini` `Groq` `Playwright` | ✅ [**Live**](https://aura-skayy47s-projects.vercel.app) |
-| [📊 **Credit Risk**](https://github.com/skayy47/credit-risk-prediction) | ML credit scoring pipeline on Home Credit dataset (307K rows). Champion LightGBM (AUC 0.7594 from 0.628 baseline). SHAP TreeExplainer, business risk simulator with threshold sweep, 5-tab Streamlit dashboard. | `Python` `LightGBM` `SHAP` `Scikit-learn` `Streamlit` `Plotly` | ✅ [**GitHub**](https://github.com/skayy47/credit-risk-prediction) |
+| [🎼 **MAESTRO**](https://github.com/skayy47/maestro) | Multi-agent AI command center. An LLM orchestrator plans a DAG of specialist agents (Research · Data · Automation), runs them as a live SSE pipeline, and returns verifiable artifacts: sourced market briefs, real CSV stats, importable n8n JSON. | `Next.js 14` `TypeScript` `Groq` `Tavily` `Framer Motion` | `48/48 tests` · [**Live ↗**](https://maestro-lac-theta.vercel.app) |
+| [🧠 **nexus**](https://github.com/skayy47/nexus) | Institutional-memory RAG engine over 15 document formats. Hybrid BM25 + pgvector + RRF retrieval, claim-level **answer grounding**, contradiction detection, confidence-gated refusal, citations. Bilingual EN/FR. | `FastAPI` `Next.js 14` `pgvector` `Groq` `Supabase` `Docker` | `145 tests` · [**Live ↗**](https://nexussss-two.vercel.app) |
+| [🔬 **AURA**](https://github.com/skayy47/AURA) | Universal data engine. Any file → 8-step auto-clean → Plotly explorer → streaming AI chat grounded in real stats → branded PDF report. Multi-provider AI cascade (Gemini → Groq → GPT-4o → Claude). Bilingual EN/FR. | `FastAPI` `Next.js 14` `Pandas` `Gemini` `Playwright` | `55/55 tests` · [**Live ↗**](https://aura-skayy47s-projects.vercel.app) |
 
 </div>
 
 <br/>
 
 > **The arc:** AURA proved I can wrangle any data format → nexus proved I can build production memory systems → MAESTRO proves I can architect multi-agent AI at depth. Each project adds a layer the previous one did not have.
+
+<br/>
+
+---
+
+## `> ls ./research-and-ml`
+
+<div align="center">
+
+| Project | Signature engineering | Proof |
+|:--------|:----------------------|:-----:|
+| [🛰️ **VERIS**](https://github.com/skayy47/VERIS) | Production research agent on a **custom asyncio state machine** (PLAN→SEARCH→REASON→VERIFY→ANSWER). VERIS-Bench-100, OTel + Prometheus + MLflow observability. **No LangChain.** | [**Code ↗**](https://github.com/skayy47/VERIS) |
+| [📊 **Credit Risk Engine**](https://github.com/skayy47/credit-risk-prediction) | LightGBM on 307K Home Credit applicants. AUC **0.759**, SHAP TreeExplainer, Basel III scorecard (Gini 0.519, KS 0.578), business risk simulator. Regulatory-grade — not a notebook. | [**Live ↗**](https://credit-risk-prediction-skay.streamlit.app) |
+| [📈 **Walmart Forecasting**](https://github.com/skayy47/walmart-sales-forecasting) | End-to-end demand forecasting. XGBoost + Prophet + Optuna tuning + Power BI dashboard. Best model: Prophet (Optuna) — **MAPE 2.17%**. | [**Live ↗**](https://walmart-sales-forecasting-skay.streamlit.app) |
+
+</div>
 
 <br/>
 
@@ -88,13 +120,13 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 ![Groq](https://img.shields.io/badge/Groq-1A1A2E?style=for-the-badge&logo=groq&logoColor=5B7B9E)
 ![Claude API](https://img.shields.io/badge/Claude%20API-5B7B9E?style=for-the-badge&logo=anthropic&logoColor=white)
 ![OpenAI API](https://img.shields.io/badge/OpenAI%20API-E0E0F0?style=for-the-badge&logo=openai&logoColor=1A1A2E)
-![LangChain](https://img.shields.io/badge/LangChain-1A1A2E?style=for-the-badge&logo=langchain&logoColor=5B7B9E)
-![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent%20Systems-5B7B9E?style=for-the-badge&logo=semanticweb&logoColor=white)
-![RAG Systems](https://img.shields.io/badge/RAG%20Systems-E0E0F0?style=for-the-badge&logo=semanticweb&logoColor=1A1A2E)
-![SSE Streaming](https://img.shields.io/badge/SSE%20Streaming-1A1A2E?style=for-the-badge&logo=apache&logoColor=5B7B9E)
-![pgvector](https://img.shields.io/badge/pgvector-5B7B9E?style=for-the-badge&logo=postgresql&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/Hugging%20Face-E0E0F0?style=for-the-badge&logo=huggingface&logoColor=1A1A2E)
-![SentenceTransformers](https://img.shields.io/badge/SentenceTransformers-1A1A2E?style=for-the-badge&logo=huggingface&logoColor=5B7B9E)
+![Gemini](https://img.shields.io/badge/Gemini-1A1A2E?style=for-the-badge&logo=googlegemini&logoColor=5B7B9E)
+![LangChain](https://img.shields.io/badge/LangChain-5B7B9E?style=for-the-badge&logo=langchain&logoColor=white)
+![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent%20Systems-E0E0F0?style=for-the-badge&logo=semanticweb&logoColor=1A1A2E)
+![RAG Systems](https://img.shields.io/badge/RAG%20Systems-1A1A2E?style=for-the-badge&logo=semanticweb&logoColor=5B7B9E)
+![SSE Streaming](https://img.shields.io/badge/SSE%20Streaming-5B7B9E?style=for-the-badge&logo=apache&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-E0E0F0?style=for-the-badge&logo=postgresql&logoColor=1A1A2E)
+![HuggingFace](https://img.shields.io/badge/Hugging%20Face-1A1A2E?style=for-the-badge&logo=huggingface&logoColor=5B7B9E)
 
 ### ⬡ Machine Learning · Data Science
 
@@ -105,8 +137,8 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 ![XGBoost](https://img.shields.io/badge/XGBoost-E0E0F0?style=for-the-badge&logo=xgboost&logoColor=1A1A2E)
 ![LightGBM](https://img.shields.io/badge/LightGBM-1A1A2E?style=for-the-badge&logo=python&logoColor=5B7B9E)
 ![SHAP](https://img.shields.io/badge/SHAP-5B7B9E?style=for-the-badge&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-E0E0F0?style=for-the-badge&logo=plotly&logoColor=1A1A2E)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-1A1A2E?style=for-the-badge&logo=tensorflow&logoColor=5B7B9E)
+![Prophet](https://img.shields.io/badge/Prophet-E0E0F0?style=for-the-badge&logo=meta&logoColor=1A1A2E)
+![Plotly](https://img.shields.io/badge/Plotly-1A1A2E?style=for-the-badge&logo=plotly&logoColor=5B7B9E)
 
 ### ⬡ Vision · Audio · Document AI
 
@@ -138,14 +170,15 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 ![Redis](https://img.shields.io/badge/Redis-1A1A2E?style=for-the-badge&logo=redis&logoColor=5B7B9E)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-5B7B9E?style=for-the-badge&logo=python&logoColor=white)
 
-### ⬡ DevOps · Infrastructure
+### ⬡ DevOps · Infrastructure · Observability
 
 ![Docker](https://img.shields.io/badge/Docker-E0E0F0?style=for-the-badge&logo=docker&logoColor=1A1A2E)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-1A1A2E?style=for-the-badge&logo=githubactions&logoColor=5B7B9E)
 ![Vercel](https://img.shields.io/badge/Vercel-5B7B9E?style=for-the-badge&logo=vercel&logoColor=white)
 ![HF Spaces](https://img.shields.io/badge/HF%20Spaces-E0E0F0?style=for-the-badge&logo=huggingface&logoColor=1A1A2E)
-![Git](https://img.shields.io/badge/Git-1A1A2E?style=for-the-badge&logo=git&logoColor=5B7B9E)
-![Vitest](https://img.shields.io/badge/Vitest-5B7B9E?style=for-the-badge&logo=vitest&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-1A1A2E?style=for-the-badge&logo=mlflow&logoColor=5B7B9E)
+![Prometheus](https://img.shields.io/badge/Prometheus-5B7B9E?style=for-the-badge&logo=prometheus&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E0E0F0?style=for-the-badge&logo=git&logoColor=1A1A2E)
 
 </div>
 
@@ -153,40 +186,21 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 
 ---
 
-## `> impact`
+## `> stats`
 
 <div align="center">
 
-### Three production AI systems — live, tested, documented.
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=skayy47&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=E0E0F0&text_color=8B9DB4&icon_color=5B7B9E" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skayy47&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=E0E0F0&text_color=8B9DB4" />
 
-</div>
+<br/>
 
-<div align="center">
-
-|  | System | Signature engineering | Proof |
-|:--:|:--|:--|:--|
-| 🎼 | **[MAESTRO](https://github.com/skayy47/maestro)** | LLM-planned multi-agent DAG · live SSE pipeline · deterministic n8n compiler | `48/48 tests` · [**Live ↗**](https://maestro-lac-theta.vercel.app) |
-| 🧠 | **[nexus](https://github.com/skayy47/nexus)** | Hybrid BM25 + pgvector RAG · contradiction radar · **answer grounding** | `RAGAS-evaluated` · [**Live ↗**](https://nexussss-two.vercel.app) |
-| 🔬 | **[AURA](https://github.com/skayy47/AURA)** | Any-file ingest → streaming AI chat → branded PDF · multi-provider · **bilingual EN/FR** | `Deployed` · [**Live ↗**](https://aura-skayy47s-projects.vercel.app) |
-
-</div>
-
-<div align="center">
-
-![Production Systems](https://img.shields.io/badge/Production_Systems-3_live-5B7B9E?style=for-the-badge)
-![Multi-Agent](https://img.shields.io/badge/Multi--Agent-orchestration-1A1A2E?style=for-the-badge)
-![Grounded RAG](https://img.shields.io/badge/RAG-grounded_%2B_hybrid-5B7B9E?style=for-the-badge)
-![Bilingual](https://img.shields.io/badge/Bilingual-EN_%7C_FR-1A1A2E?style=for-the-badge)
-![Free tier](https://img.shields.io/badge/Runs_on-free_tier-5B7B9E?style=for-the-badge)
+<img height="170" src="https://streak-stats.demolab.com?user=skayy47&hide_border=true&background=0D1117&stroke=1A1A2E&ring=5B7B9E&fire=5B7B9E&currStreakLabel=E0E0F0&sideLabels=E0E0F0&dates=8B9DB4&currStreakNum=E0E0F0&sideNums=E0E0F0&dayLabels=8B9DB4" />
 
 <br/>
 <br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=skayy47&bg_color=0D1117&color=E0E0F0&line=5B7B9E&point=E0E0F0&area=true&area_color=1A1A2E&hide_border=true&custom_title=Build%20Activity" width="100%"/>
-
-<br/>
-
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skayy47&layout=compact&hide_border=true&bg_color=0D1117&title_color=E0E0F0&text_color=8B9DB4&langs_count=6" />
 
 </div>
 
@@ -198,7 +212,9 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 
 <div align="center">
 
-📧 **[oussamaiskia@gmail.com](mailto:oussamaiskia@gmail.com)**
+[![Portfolio](https://img.shields.io/badge/Portfolio-5B7B9E?style=for-the-badge&logo=vercel&logoColor=white)](https://skay-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1A1A2E?style=for-the-badge&logo=linkedin&logoColor=5B7B9E)](https://linkedin.com/in/oussama-skia)
+[![Email](https://img.shields.io/badge/Email-E0E0F0?style=for-the-badge&logo=gmail&logoColor=1A1A2E)](mailto:oussamaiskia@gmail.com)
 
 <br/>
 
