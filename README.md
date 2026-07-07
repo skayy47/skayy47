@@ -75,7 +75,7 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 |:--------|:-----------|:------|:------:|
 | [🎼 **MAESTRO**](https://github.com/skayy47/maestro) | Multi-agent AI command center. An LLM orchestrator plans a DAG of specialist agents (Research · Data · Automation), runs them as a live SSE pipeline, and returns verifiable artifacts: sourced market briefs, real CSV stats, importable n8n JSON. | `Next.js 14` `TypeScript` `Groq` `Tavily` `Framer Motion` | `48/48 tests` · [**Live ↗**](https://maestro-lac-theta.vercel.app) |
 | [🧠 **nexus**](https://github.com/skayy47/nexus) | Institutional-memory RAG engine over 15 document formats. Hybrid BM25 + pgvector + RRF retrieval, claim-level **answer grounding**, contradiction detection, confidence-gated refusal, citations. Bilingual EN/FR. | `FastAPI` `Next.js 14` `pgvector` `Groq` `Supabase` `Docker` | `145 tests` · [**Live ↗**](https://nexussss-two.vercel.app) |
-| [🔬 **AURA**](https://github.com/skayy47/AURA) | Universal data engine. Any file → 8-step auto-clean → Plotly explorer → streaming AI chat grounded in real stats → branded PDF report. Multi-provider AI cascade (Gemini → Groq → GPT-4o → Claude). Bilingual EN/FR. | `FastAPI` `Next.js 14` `Pandas` `Gemini` `Playwright` | `55/55 tests` · [**Live ↗**](https://aura-skayy47s-projects.vercel.app) |
+| [🔬 **AURA**](https://github.com/skayy47/AURA) | Universal data engine. Any file → 8-step auto-clean → Plotly explorer → streaming AI chat grounded in real stats → branded PDF report. Multi-provider AI cascade (Gemini → Groq → GPT-4o → Claude). Bilingual EN/FR. | `FastAPI` `Next.js 14` `Pandas` `Gemini` `Playwright` | `55/55 tests` · [**Live ↗**](https://aura-sooty-five-27.vercel.app) |
 
 </div>
 
@@ -220,7 +220,7 @@ INFJ. Thinks in systems. Obsessed with the gap between raw data and real intelli
 
 | 🎼 MAESTRO | 🧠 nexus | 🔬 AURA |
 |:---:|:---:|:---:|
-| [**Live Demo**](https://maestro-lac-theta.vercel.app) | [**Live Demo**](https://nexussss-two.vercel.app) | [**Live Demo**](https://aura-skayy47s-projects.vercel.app) |
+| [**Live Demo**](https://maestro-lac-theta.vercel.app) | [**Live Demo**](https://nexussss-two.vercel.app) | [**Live Demo**](https://aura-sooty-five-27.vercel.app) |
 | Multi-agent AI | RAG + Memory | Universal Data AI |
 
 <br/>
