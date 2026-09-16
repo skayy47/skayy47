@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Oussama Skia — AI Engineer, Data Scientist, Production AI Systems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F1A"/>
+      <stop offset="55%" stop-color="#0E1524"/>
+      <stop offset="100%" stop-color="#111C2E"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6E9FD4" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#6E9FD4" stop-opacity="1"/>
+      <stop offset="62%" stop-color="#3E5F8A" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#3E5F8A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#D7E4F5"/>
+      <stop offset="100%" stop-color="#9FC0E4"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#6E9FD4" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#6E9FD4" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#6E9FD4" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .pulse { animation: p 4s ease-in-out infinite; }
+      .pulse2 { animation: p 4s ease-in-out infinite; animation-delay: 1.3s; }
+      .pulse3 { animation: p 4s ease-in-out infinite; animation-delay: 2.6s; }
+      @keyframes p { 0%,100% { opacity:.25 } 50% { opacity:1 } }
+      @media (prefers-reduced-motion: reduce) { .pulse,.pulse2,.pulse3 { animation: none; opacity:.7 } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="220" fill="url(#bg)"/>
+  <rect width="1000" height="220" fill="url(#grid)"/>
+  <ellipse cx="845" cy="110" rx="190" ry="120" fill="url(#glow)"/>
+
+  <text x="64" y="94" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="46" font-weight="700" letter-spacing="3" fill="url(#ink)">OUSSAMA SKIA</text>
+  <text x="66" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="500" letter-spacing="4.4" fill="#8296B0">AI ENGINEER &#183; DATA SCIENTIST &#183; PRODUCTION AI SYSTEMS</text>
+  <rect x="66" y="144" width="430" height="2" fill="url(#rule)"/>
+  <text x="66" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="500" letter-spacing="1.1" fill="#6E9FD4">Models hallucinate. Systems shouldn&#8217;t.</text>
+
+  <g stroke="#3E5F8A" stroke-width="1.25" fill="none" opacity="0.85">
+    <path d="M760 110 L840 62"/><path d="M760 110 L840 110"/><path d="M760 110 L840 158"/>
+    <path d="M840 62 L920 110"/><path d="M840 110 L920 110"/><path d="M840 158 L920 110"/>
+  </g>
+  <g>
+    <circle cx="760" cy="110" r="7" fill="#6E9FD4"/>
+    <circle cx="840" cy="62"  r="5" fill="#6E9FD4" class="pulse"/>
+    <circle cx="840" cy="110" r="5" fill="#6E9FD4" class="pulse2"/>
+    <circle cx="840" cy="158" r="5" fill="#6E9FD4" class="pulse3"/>
+    <circle cx="920" cy="110" r="7" fill="#D7E4F5"/>
+  </g>
+</svg>

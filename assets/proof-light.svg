@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 156" width="1000" height="156" role="img" aria-label="Proof: 3 live production systems, 284 tests and end-to-end checks passing, 0.775 AUC credit risk model, 2.17 percent MAPE demand forecasting">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCFDFF"/>
+      <stop offset="100%" stop-color="#E8F0F9"/>
+    </linearGradient>
+    <pattern id="pgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#2C5F94" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="156" rx="12" fill="url(#pbg)"/>
+  <rect width="1000" height="156" rx="12" fill="url(#pgrid)"/>
+  <text x="22" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="600"
+        fill="#566880" letter-spacing="2.6">VERIFIED PROOF &#183; EVERY NUMBER TRACEABLE TO A REPO</text>
+
+  <g>
+    <rect x="22.0" y="26" width="227.0" height="104" rx="10"
+          fill="#FFFFFF" stroke="#DCE6F2" stroke-width="1"/>
+    <rect x="22.0" y="26" width="227.0" height="2.5" rx="1.25" fill="#2C5F94" opacity="0.85"/>
+    <text x="135.5" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="34" font-weight="700" fill="#0F1B2D" letter-spacing="1">3</text>
+    <text x="135.5" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="9.5" font-weight="500" fill="#566880" letter-spacing="1.5">LIVE PRODUCTION SYSTEMS</text>
+  </g>
+  <g>
+    <rect x="265.0" y="26" width="227.0" height="104" rx="10"
+          fill="#FFFFFF" stroke="#DCE6F2" stroke-width="1"/>
+    <rect x="265.0" y="26" width="227.0" height="2.5" rx="1.25" fill="#2C5F94" opacity="0.85"/>
+    <text x="378.5" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="34" font-weight="700" fill="#0F1B2D" letter-spacing="1">284</text>
+    <text x="378.5" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="9.5" font-weight="500" fill="#566880" letter-spacing="1.5">TESTS + E2E CHECKS PASSING</text>
+  </g>
+  <g>
+    <rect x="508.0" y="26" width="227.0" height="104" rx="10"
+          fill="#FFFFFF" stroke="#DCE6F2" stroke-width="1"/>
+    <rect x="508.0" y="26" width="227.0" height="2.5" rx="1.25" fill="#2C5F94" opacity="0.85"/>
+    <text x="621.5" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="34" font-weight="700" fill="#0F1B2D" letter-spacing="1">0.775</text>
+    <text x="621.5" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="9.5" font-weight="500" fill="#566880" letter-spacing="1.5">AUC · CREDIT RISK MODEL</text>
+  </g>
+  <g>
+    <rect x="751.0" y="26" width="227.0" height="104" rx="10"
+          fill="#FFFFFF" stroke="#DCE6F2" stroke-width="1"/>
+    <rect x="751.0" y="26" width="227.0" height="2.5" rx="1.25" fill="#2C5F94" opacity="0.85"/>
+    <text x="864.5" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="34" font-weight="700" fill="#0F1B2D" letter-spacing="1">2.17%</text>
+    <text x="864.5" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="9.5" font-weight="500" fill="#566880" letter-spacing="1.5">MAPE · DEMAND FORECASTING</text>
+  </g>
+  <text x="978" y="147" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5"
+        fill="#566880" letter-spacing="1" opacity="0.75">MAESTRO 84 &#183; nexus 145 &#183; AURA 55</text>
+</svg>
