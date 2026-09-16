@@ -10,7 +10,7 @@
 <br/>
 
 [![Open to](https://img.shields.io/badge/Open_to-AI_%2F_ML_Engineer_·_PFE_2027-2C5F94?style=flat-square&labelColor=0B0F1A)](mailto:oussamaiskia@gmail.com)
-[![Based in](https://img.shields.io/badge/Casablanca,_Morocco-EU_relocation_ready-0B0F1A?style=flat-square&labelColor=0B0F1A)](https://www.google.com/maps/place/Casablanca)
+[![Based in](https://img.shields.io/badge/Based_in-Casablanca,_Morocco-3E5F8A?style=flat-square&labelColor=0B0F1A)](https://www.google.com/maps/place/Casablanca)
 [![Portfolio](https://img.shields.io/badge/Portfolio-skay--portfolio.vercel.app-6E9FD4?style=flat-square&labelColor=0B0F1A&logo=vercel&logoColor=white)](https://skay-portfolio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-oussama--skia-0A66C2?style=flat-square&labelColor=0B0F1A&logo=linkedin&logoColor=white)](https://linkedin.com/in/oussama-skia)
 
