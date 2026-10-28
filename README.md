@@ -9,7 +9,7 @@
 <br/>
 <br/>
 
-[![Open to](https://img.shields.io/badge/Open_to-AI_%2F_ML_Engineer_·_PFE_2027-2C5F94?style=flat-square&labelColor=0B0F1A)](mailto:oussamaiskia@gmail.com)
+[![Open to](https://img.shields.io/badge/Open_to-PFE_from_Feb_2027_·_AI_%2F_ML_Engineer-2C5F94?style=flat-square&labelColor=0B0F1A)](mailto:oussamaiskia@gmail.com)
 [![Based in](https://img.shields.io/badge/Based_in-Casablanca,_Morocco-3E5F8A?style=flat-square&labelColor=0B0F1A)](https://www.google.com/maps/place/Casablanca)
 [![Portfolio](https://img.shields.io/badge/Portfolio-skay--portfolio.vercel.app-6E9FD4?style=flat-square&labelColor=0B0F1A&logo=vercel&logoColor=white)](https://skay-portfolio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-oussama--skia-0A66C2?style=flat-square&labelColor=0B0F1A&logo=linkedin&logoColor=white)](https://linkedin.com/in/oussama-skia)
@@ -60,13 +60,13 @@ Multi-agent AI command center. An LLM orchestrator plans a DAG of specialist age
 
 Institutional-memory RAG engine over **15 document formats**. Hybrid BM25 + pgvector + RRF retrieval, claim-level **answer grounding**, contradiction detection, confidence-gated refusal, real citations. Bilingual EN/FR.
 
-`FastAPI` · `Next.js 14` · `pgvector` · `Groq` · `Supabase` · `Docker`  —  **145 tests**
+`FastAPI` · `Next.js 14` · `pgvector` · `Groq` · `Supabase` · `Docker`  —  **147 tests**
 
 > RAGAS-evaluated for real — and reported honestly. Context Recall **0.90** (retrieval-only, target 0.75). The generation metrics (Faithfulness 0.768, Answer Relevancy 0.801) were measured on `llama-3.3-70b`, which Groq deprecated in June 2026; generation now runs on `gpt-oss-120b` and those two are pending re-measurement. An earlier eval scored 0.51/0.64/0.70 until I found it was silently running dense-only retrieval and scoring a smaller model than production serves.
 
 ### [🔬 AURA](https://github.com/skayy47/AURA) · [Live ↗](https://aura-sooty-five-27.vercel.app)
 
-Universal data engine. Any file → 8-step auto-clean → Plotly explorer → streaming AI chat **grounded in real computed stats** → branded PDF report. Multi-provider AI cascade (Gemini → Groq → GPT-4o → Claude). Bilingual EN/FR.
+Universal data engine. Any file → 8-step auto-clean → Plotly explorer → streaming AI chat **grounded in real computed stats** → branded PDF report. Provider cascade (Gemini → Groq live, GPT-4o / Claude pluggable). Bilingual EN/FR.
 
 `FastAPI` · `Next.js 14` · `Pandas` · `Gemini` · `Playwright`  —  **55/55 end-to-end checks** across 5 datasets
 
@@ -82,10 +82,10 @@ Universal data engine. Any file → 8-step auto-clean → Plotly explorer → st
 
 | Project | Signature engineering | Proof |
 |:--|:--|:--|
-| **🛰️ UrbanSense** <br/> `private · academic` | Real-time urban digital twin — Kafka/Spark streaming, GRU traffic forecasting, false-data-injection defence, and an agentic assistant with **mechanically-verified groundedness**. | PFA ISGA 2025–26 · defended Sept 2026 |
-| [**🔭 VERIS**](https://github.com/skayy47/VERIS) | Production research agent on a **custom asyncio state machine** (PLAN→SEARCH→REASON→VERIFY→ANSWER). VERIS-Bench-100, OTel + Prometheus + MLflow observability. **No LangChain.** | [Code ↗](https://github.com/skayy47/VERIS) |
-| [**📊 Credit Risk Engine**](https://github.com/skayy47/credit-risk-prediction) | LightGBM on 307,511 Home Credit applicants, 31 engineered relational features. SHAP TreeExplainer, Basel III scorecard (Gini 0.550), isotonic calibration cutting Brier 0.147 → 0.067. Regulatory-grade — not a notebook. | **AUC 0.7748** · [Live ↗](https://credit-risk-prediction-skay.streamlit.app) |
-| [**📈 Walmart Forecasting**](https://github.com/skayy47/walmart-sales-forecasting) | End-to-end demand forecasting. XGBoost + Prophet + Optuna tuning + Power BI dashboard. | **MAPE 2.17%** · [Live ↗](https://walmart-sales-forecasting-skay.streamlit.app) |
+| **🛰️ UrbanSense** <br/> `private · academic` | Real-time urban digital twin — Kafka/Spark streaming, GRU traffic forecasting, false-data-injection defence, and an agentic assistant with **mechanically-verified groundedness**. | **p95 870 ms** · jury: “excellent work” · [Console ↗](https://urbansense-console.vercel.app) · [Case study ↗](https://skay-portfolio.vercel.app/work/urbansense) |
+| [**🔭 VERIS**](https://github.com/skayy47/VERIS) | *In progress.* Research agent on a **custom asyncio state machine** (PLAN→SEARCH→REASON→VERIFY→ANSWER), no LangChain. Scaffold + design for a VERIS-Bench-100 eval gate and OTel/Prometheus/MLflow observability — not yet proven in CI. | [Code ↗](https://github.com/skayy47/VERIS) |
+| [**📊 Credit Risk Engine**](https://github.com/skayy47/credit-risk-prediction) | LightGBM on 307,511 Home Credit applicants, 31 engineered relational features. SHAP TreeExplainer, Basel III scorecard (Gini 0.550), isotonic calibration cutting Brier 0.147 → 0.067. Regulatory-grade — not a notebook. | **AUC 0.7748** · [Live ↗](https://credit-risk-prediction-skay.streamlit.app) · [Case study ↗](https://skay-portfolio.vercel.app/work/credit) |
+| [**📈 Walmart Forecasting**](https://github.com/skayy47/walmart-sales-forecasting) | End-to-end demand forecasting. 5 models benchmarked (Prophet, XGBoost, SARIMAX…) with Optuna tuning + a 4-page Power BI report. | **MAPE 2.17%** · [Live ↗](https://walmart-sales-forecasting-skay.streamlit.app) |
 
 <br/>
 
@@ -116,7 +116,7 @@ Universal data engine. Any file → 8-step auto-clean → Plotly explorer → st
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/proof-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/proof-light.svg">
-  <img alt="3 live production systems · 284 tests and end-to-end checks passing · 0.775 AUC credit risk model · 2.17% MAPE demand forecasting" src="assets/proof-dark.svg" width="100%">
+  <img alt="3 live production systems · 286 tests and end-to-end checks passing · 0.775 AUC credit risk model · 2.17% MAPE demand forecasting" src="assets/proof-dark.svg" width="100%">
 </picture>
 
 </div>

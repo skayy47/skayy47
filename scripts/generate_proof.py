@@ -7,7 +7,7 @@ Replaces github-readme-stats / top-langs / activity-graph, which were returning
 
 Every number here is traceable to a repo:
   84  -> maestro/README.md  ("Tests-84_passing" badge, 15 Vitest suites)
-  145 -> nexus/README.md    ("145 tests pass, 1 skipped")
+  147 -> nexus/README.md    ("147 tests pass, 7 skipped", re-run 2026-10-28)
   55  -> AURA/README.md     ("Last result: 55/55 passed (100%)" overtest, 5 datasets)
   0.7748 AUC -> credit-risk-prediction (Champion v2, LightGBM + 31 relational features)
   2.17% MAPE -> walmart-sales-forecasting (Prophet + Optuna)
@@ -29,7 +29,7 @@ THEMES = {
 
 TILES = [
     ("3",      "LIVE PRODUCTION SYSTEMS"),
-    ("284",    "TESTS + E2E CHECKS PASSING"),
+    ("286",    "TESTS + E2E CHECKS PASSING"),
     ("0.775",  "AUC · CREDIT RISK MODEL"),
     ("2.17%",  "MAPE · DEMAND FORECASTING"),
 ]
@@ -57,7 +57,7 @@ def build(t: dict) -> str:
           font-size="9.5" font-weight="500" fill="{t['label']}" letter-spacing="1.5">{lab}</text>
   </g>''')
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Proof: 3 live production systems, 284 tests and end-to-end checks passing, 0.775 AUC credit risk model, 2.17 percent MAPE demand forecasting">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Proof: 3 live production systems, 286 tests and end-to-end checks passing, 0.775 AUC credit risk model, 2.17 percent MAPE demand forecasting">
   <defs>
     <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="{t['bg']}"/>
@@ -73,7 +73,7 @@ def build(t: dict) -> str:
         fill="{t['label']}" letter-spacing="2.6">VERIFIED PROOF &#183; EVERY NUMBER TRACEABLE TO A REPO</text>
 {"".join(cards)}
   <text x="{W - pad}" y="147" text-anchor="end" font-family="{MONO}" font-size="8.5"
-        fill="{t['label']}" letter-spacing="1" opacity="0.75">MAESTRO 84 &#183; nexus 145 &#183; AURA 55</text>
+        fill="{t['label']}" letter-spacing="1" opacity="0.75">MAESTRO 84 &#183; nexus 147 &#183; AURA 55</text>
 </svg>
 '''
 
